@@ -1,12 +1,14 @@
-import mysql from 'mysql2'
+import mysql from "mysql2";
 
-// create the connection to database
 
-// simple query
-// async function main() {
-//     const mysql = require('mysql2/promise');
-//     const connection = await mysql.createConnection({host:'localhost', user: 'root', database: 'learnodejs'});
-//     const [rows, fields] = await connection.execute('SELECT * FROM `users`')
-// }
-//
-// export default main;
+const pool = mysql.createPool({
+    host: 'localhost',
+    user: 'root',
+    database: 'learnodejs',
+    waitForConnections: true,
+    connectionLimit: 10,
+    queueLimit: 0
+});
+const promisePool = pool.promise();
+
+export default promisePool;

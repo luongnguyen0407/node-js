@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f35ea3c-f841-46a6-b20d-f79497222d56" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/configs/connectDB.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/configs/viewEngine.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/homeController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/route/web.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/apiController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/pageController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/configs/connectDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/configs/connectDB.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/homeController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/route/web.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/route/web.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +34,7 @@
     <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/configs/connectDB.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/configs/viewEngine.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/controller/homeController.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/controller/pageController.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/route/web.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/server.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/views/index.ejs" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" root2="FORCE_HIGHLIGHTING" />
@@ -91,6 +88,9 @@
       <workItem from="1660466597861" duration="19000" />
       <workItem from="1660547000487" duration="2285000" />
       <workItem from="1660634216089" duration="5186000" />
+      <workItem from="1660653362100" duration="672000" />
+      <workItem from="1660695868995" duration="5098000" />
+      <workItem from="1660720128885" duration="7284000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1660384094165</created>

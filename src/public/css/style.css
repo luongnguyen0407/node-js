@@ -31,7 +31,9 @@ li a {
 li a:hover:not(.active) {
     background-color: #111;
 }
-
+a{
+    text-decoration: none;
+}
 .active {
     background-color: #04AA6D;
 }
@@ -51,4 +53,35 @@ tr:nth-child(even){background-color: #f2f2f2}
 th {
     background-color: #04AA6D;
     color: white;
+}
+.btn-con{
+    padding: 4px 8px;
+    border: none;
+    border-radius: 2px;
+    background-color: cornflowerblue;
+}
+.btn-con a{
+    color: white ;
+
+}
+.wrap-form{
+    margin-top: 40px;
+
+}
+.wrap-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.wrap-form label{
+    display: block;
+}
+.wrap-form form input{
+    padding: 5px 10px;
+    border: 1px solid cornflowerblue;
+    border-radius: 3px;
+    outline: none;
 }
